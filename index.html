@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Top Sites</title>
     <link href="stylesheet.css" type="text/css" rel="stylesheet">
@@ -7,6 +7,11 @@
 
 <body>
     <h1>Top Sites</h1>
+    <form name="search">
+        <input type="text" name="query" value="">
+        <input type="submit" value="Search Google" onClick="search_google()">
+</form>
+    <hr>
     <div class="floated_img">
         <a href="https://www.facebook.com/"><img src="images/facebook1.png"></a>
         <p>Facebook</p>
@@ -54,6 +59,7 @@
     <div class="floated_img">
         <a href="https://soundcloud.com"><img src="images/soundcloud1.png"></a>
         <p>Soundcloud</p>
+        <script src="javascript.js"></script>
 </body>
 
 </html>
