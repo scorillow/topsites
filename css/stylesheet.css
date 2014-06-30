@@ -8,9 +8,6 @@ h1 {
     margin-top: -4px;
     margin-bottom: 5px;
 }
-body {
-    background-image: url(Images/hexabump.png);
-}
 img:hover {
     outline: solid #00f .5em;
     -webkit-filter: opacity(1);
@@ -19,6 +16,7 @@ img {
     box-shadow: 0 2px 2px 0 #000;
     margin: 0 16px -4px 16px;
     max-height: 150px;
+    max-width: 235px;
     -webkit-filter: opacity(0.9);
 }
 div {
@@ -33,21 +31,13 @@ div {
 .floated_img {
     float: left;
 }
-    
-hr{
-    color:white;
-    width:60%;
-    margin-bottom:10px;
-    margin-top:5px;
-}
-
-
-
 #button{
     display: none;}
 #google{
     width: 50%;
     margin-left: 25%;
+    margin-bottom: 50px;
+    margin-top: 10px;
     border-radius: 5px;
     text-align: center;}
 
