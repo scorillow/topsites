@@ -1,0 +1,61 @@
+body{
+	background-image: url(../images/scribble-light.png);
+	background-color: #454545;
+	
+	
+	
+}
+
+h1{
+	text-align: center;
+	font: 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-weight: 100;
+	font-size: 5em;
+	color: white;
+}
+
+hr{
+	width: 30%;
+}
+p{
+	color: white;
+	font: 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-size: 1.5em;
+	font-weight: 200;
+	margin-top: 5px;
+}
+
+img {
+    box-shadow: 0 2px 2px 0 #000;
+    margin: 0 auto;
+    max-height: 150px;
+    max-width: 235px;
+    -webkit-filter: opacity(0.7);
+}
+img:hover {
+    outline: solid #00f .5em;
+    -webkit-filter: opacity(1);
+}
+.col-md-3 {
+	text-align: center;
+}
+
+#button{
+    display: none;}
+#google{
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 5px;
+    text-align: center;}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }

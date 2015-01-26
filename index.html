@@ -1,73 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Top Sites</title>
-    <link href="css/stylesheet.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/text.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
-</head>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Top Sites</title>
 
-<body>
-    <h1>Top Sites</h1>
-        <form method="get" action="http://www.google.com.au/search" id="search">
+		<!-- CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/custom.css" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Top Sites</h1>
+		<hr>
+		<form method="get" action="http://www.google.com.au/search" id="search">
             <input type="text" name="q" maxlength="255" placeholder="Google Search" id="google" autofocus>
             <input type="submit" value="" id="button">
         </form>
-    <section id="grid" class="clearfix">
-    <div class="cf">
-      <div class="row">
-        <div class="grid-1">
-            <a href="https://www.facebook.com/"><img src="images/facebook1.png"></a>
-            <p>Facebook</p>
-        </div>
-        <div class="grid-1">
-            <a href="http://www.youtube.com/"><img src="images/youtube1.png"></a>
-            <p>YouTube</p>
-        </div>
-        <div class="grid-1">
-            <a href="http://mail.google.com"><img src="images/gmail1.png"></a>
-            <p>GMail</p>
-        </div>
-        <div class="grid-1">
-            <a href="http://www.reddit.com"><img src="images/reddit1.png"></a>
-            <p>Reddit</p>
-        </div>
-        <div class="grid-1">
-            <a href="http://www.theverge.com"><img src="images/theverge1.png"></a>
-            <p>The Verge</p>
-        </div>
-        <div class="grid-1">
-            <a href="http://www.polygon.com"><img src="images/polygon1.png"></a>
-            <p>Polygon</p>
-        </div>
-        <div class="grid-1">
-            <a href="http://www.sydney.edu.au/myuni"><img src="images/usyd1.png"></a>
-            <p>USYD MyUni</p>
-        </div>
-        <div class="grid-1">
-            <a href="http://www.goal.com"><img src="images/goal1.png"></a>
-            <p>Goal.com</p>
-        </div>
-        <div class="grid-1">
-            <a href="http://www.kickass.to"><img src="images/katph1.png"></a>
-            <p>Kick-Ass Torrents</p>
-        </div>
-        <div class="grid-1">
-            <a href="http://filelist.ro/"><img src="images/filelist1.png"></a>
-            <p>Filelist</p>
-        </div>
-        <div class="grid-1">
-            <a href="http://grooveshark.com"><img src="images/grooveshark1.png"></a>
-            <p>Grooveshark</p>
-        </div>
-        <div class="grid-1">
-            <a href="https://soundcloud.com"><img src="images/soundcloud1.png"></a>
-            <p>Soundcloud</p>
-        </div>
-    </div>
-        </div>
-        </section>
-        </body>
+		<hr>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3"><a href="https://www.facebook.com/"><img src="images/facebook1.png"></a>
+					<p>Facebook</p></div>	 
+				<div class="col-md-3"><a href="http://www.youtube.com/"><img src="images/youtube1.png"></a>
+					<p>YouTube</p></div>	 
+				<div class="col-md-3"><a href="http://mail.google.com"><img src="images/gmail1.png"></a>
+					<p>GMail</p></div>	 
+				<div class="col-md-3"><a href="http://www.reddit.com"><img src="images/reddit1.png"></a>
+					<p>Reddit</p></div>
+			</div>
+			<div class="row">
+				<div class="col-md-3"><a href="http://www.theverge.com"><img src="images/theverge1.png"></a>
+					<p>The Verge</p></div>	 
+				<div class="col-md-3">
+					<a href="http://www.polygon.com"><img src="images/polygon1.png"></a>
+					<p>Polygon</p></div>	 
+				<div class="col-md-3"><a href="http://www.sydney.edu.au/myuni"><img src="images/usyd1.png"></a>
+					<p>USYD MyUni</p></div>	 
+				<div class="col-md-3"><a href="https://soundcloud.com"><img src="images/soundcloud1.png"></a>
+					<p>Soundcloud</p></div>
+			</div>
+			<div class="row">
+				<div class="col-md-3"><a href="http://www.goal.com"><img src="images/goal1.png"></a>
+					<p>Goal.com</p></div>	 
+				<div class="col-md-3"><a href="http://www.kickass.to"><img src="images/katph1.png"></a>
+					<p>Kick-Ass Torrents</p></div>	 
+				<div class="col-md-3"><a href="http://filelist.ro/"><img src="images/filelist1.png"></a>
+					<p>Filelist</p></div>	 
+				<div class="col-md-3"><a href="http://grooveshark.com"><img src="images/grooveshark1.png"></a>
+					<p>Grooveshark</p></div>
+			</div>
+		</div>
 
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+	</body>
 </html>
